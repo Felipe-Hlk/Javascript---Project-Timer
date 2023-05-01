@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(2, 57, 70);
+  --primary-color-darker: rgb(12, 74, 84);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: rgb(0, 237, 237);
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 540px;
+  margin: 150px auto;
+  background: #959595;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 1px 1px black;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 750px;
+}
+
+.form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form input {
+  font-size: 20px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+.form button {
+  border: none;
+  background: var(--primary-color);
+  color: #adeaf2;
+  font-size: 12px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.form button:hover {
+  background: var(--primary-color-darker);
+}
+.relogio {
+  font-size: 3em;
+}
+
+.pausado {
+  color: rgb(235, 32, 1);
+}
